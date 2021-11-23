@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.form_container{
+	max-width: 100%;
+	height: auto;
+	border:1px solid grey;
+}
+
+.card{margin: 3% 0%;}
+
+
+
+.flex-button{
+	display: flex;
+	justify-content: center;
+}
+.outer-container{
+	border:1px solid black;
+}
+
+.flex-contain{
+	display: flex;
+	justify-content: space-around;
+}
+
+.page-item input { line-height: 22px; 
+	padding: 3px; 
+
+	font-size: 15px;
+	 display: flex;
+	  justify-content: center;
+	   align-items: center; 
+	   text-align: center; }
+
+.page-link { line-height: 16px; 
+	width: 45px;
+	 font-size: 1rem; 
+	 display: flex;
+	  justify-content: center;
+	   align-items: center;
+	    color: #495057; }
